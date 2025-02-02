@@ -20,6 +20,7 @@ body {
 h1{
 font-family: 'Fraunces', serif;
 color: #5f0008;
+text-align: center;
 }
 li{
  list-style: circle;
@@ -52,5 +53,14 @@ a {
 button:hover {
     background-color: #5f0008;
     transform: scale(1.05);
+}
+@media(max-width:765px) {
+    body {
+        margin-inline: 1.5em;
+    }
+
+    .start-container {
+        max-width: 100%;
+    }
 }
 
