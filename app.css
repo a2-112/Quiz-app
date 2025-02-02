@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100..900&family=Montserrat:wght@100..900&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(46, 97%, 45%);
+    font-family: 'Montserrat', serif;
+    text-align: center;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: hsl(46, 97%, 45%);
+}
+
+button{
+   width:100%;
+   padding: 1em;
+   font-size: 0.8rem;
+font-family: 'Montserrat', serif;
+border: none;
+    transition: 0.3s ease-in-out;
+
+}
+
+ a:hover{
+    color: whitesmoke;
+}
+button:hover{
+        transform: scale(1.05);
+        background-color: #5f0008;
+}
